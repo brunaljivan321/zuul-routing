@@ -1,0 +1,9 @@
+server:
+  port: 8080
+zuul:
+  routes:
+    microservice1:
+      url: http://localhost:8090
+ribbon:
+  eureka:
+    enabled: false
